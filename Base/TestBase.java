@@ -9,10 +9,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class TestBase {
 	
-	public static WebDriver driver;  // writting of code style is proper
+	public static WebDriver driver;  //  All is Good about code
+
 	
-	//okay
-//	@Parameters("browser")	
+	
+	@Parameters("browser")	
 	public void Initialisebrowser(String browser)
 	 {
 	  if(browser.equalsIgnoreCase("chrome")) 
